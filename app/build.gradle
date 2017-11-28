@@ -19,6 +19,9 @@ android {
             dimension "mode"
             applicationIdSuffix ".free"
             versionNameSuffix "-free"
+            dependencies {
+                implementation 'com.google.android.gms:play-services-ads:11.6.0'
+            }
         }
 
         paid {
@@ -42,5 +45,4 @@ dependencies {
     })
     implementation 'com.android.support:support-v4:27.0.1'
     implementation 'com.android.support:appcompat-v7:27.0.1'
-    implementation 'com.google.android.gms:play-services-ads:11.6.0'
 }
