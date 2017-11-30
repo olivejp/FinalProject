@@ -20,7 +20,7 @@ android {
             applicationIdSuffix ".free"
             versionNameSuffix "-free"
             dependencies {
-                implementation 'com.google.android.gms:play-services-ads:11.6.0'
+                implementation 'com.google.android.gms:play-services-ads:11.6.2'
             }
         }
 
