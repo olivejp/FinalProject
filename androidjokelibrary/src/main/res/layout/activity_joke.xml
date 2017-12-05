@@ -8,6 +8,7 @@
     <TextView
         android:id="@+id/text_joke"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        tools:text = "Bonjour Monsieur OLIVE"/>
 
 </android.support.constraint.ConstraintLayout>

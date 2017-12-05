@@ -5,7 +5,7 @@ import java.util.Random;
 public class JokeGenerator {
     private static String[] jokes = new String[4];
 
-    private static void populateJokes(){
+    private static void populateJokes() {
         jokes[0] = "Can a kangaroo jump higher than a house?\n" +
                 "-\n" +
                 "Of course, a house doesn\'t jump at all.";
@@ -27,7 +27,6 @@ public class JokeGenerator {
 
     public static String getJoke() {
         populateJokes();
-        Random rand = new Random();
-        return jokes[rand.nextInt(4)];
+        return jokes[new Random().nextInt(4)];
     }
 }
